@@ -25,6 +25,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_test);
         send_recycler = (RecyclerView)findViewById(R.id.send_recycler);
+
         initData();
     }
     public void initData() {
